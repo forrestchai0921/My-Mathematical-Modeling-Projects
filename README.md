@@ -7,6 +7,11 @@ This repository contains selected mathematical modeling papers authored during m
   [Download Paper (PDF)](./2312480.pdf)
 
 - **2023 International Mathematical Modeling Challenge (IMMC) Greater China International Round**  
-  Advanced to **Final Defense (Top 26 among 900+ teams worldwide)**.  
-  Applied machine learning methods (K-Means, logistic regression, decision trees, random forests) to [brief description].  
+  Advanced to **Final Defense (Top 26 among 900+ teams)**.  
+  Applied machine learning methods (**Entropy Weight** and **K-Means**) to evaluate different development plans for the 5-square-kilometer land and find the optimized land development strategy (environmental impacts, economic profits, and community utilities were taken into consideration). 
   [Download Paper (PDF)](./IMMC23618025.pdf)
+
+- **2023 High School Mathematical Contest in Modeling (HiMCM)**  
+  Received **Finalist Award (Top ~7%)**.  
+  We constructed a Dandelion Spread PDE Model (DSM) to investigate the spread of dandelions over time. We developed four coupled **partial differential equations** that model population densities of settled dandelion seeds, dandelion plants, puffballs, and drifting seeds. We corrected the **Fisher model** by multiplying a logistic term to obtain a logistic population growth that depicts the effect of intraspecific competition on the dandelion population. For the PDE of drifting seeds, we used the **advection-diffusion** equation by adding **Brownian Random Dispersal** to the equation. This allows us to effectively predict the spread of dandelions in various kinds of winds. We used FEniCS to obtain the final predictions of the DSM model, and a sensitivity analysis was conducted. Finally, we used the Analytic Hierarchy Process to measure the dandelions’ invasiveness. One of the indicators, total biomass, was calculated using the DSM model.
+  [Download Paper (PDF)](./13718.pdf)
