@@ -15,3 +15,8 @@ This repository contains selected mathematical modeling papers authored during m
   Received **Finalist Award (Top ~7%)**.  
   We constructed a Dandelion Spread PDE Model (DSM) to investigate the spread of dandelions over time. We developed four coupled **partial differential equations** that model population densities of settled dandelion seeds, dandelion plants, puffballs, and drifting seeds. We corrected the **Fisher model** by multiplying a logistic term to obtain a logistic population growth that depicts the effect of intraspecific competition on the dandelion population. For the PDE of drifting seeds, we used the **advection-diffusion** equation by adding **Brownian Random Dispersal** to the equation. This allows us to effectively predict the spread of dandelions in various kinds of winds. We used FEniCS to obtain the final predictions of the DSM model, and a sensitivity analysis was conducted. Finally, we used the Analytic Hierarchy Process to measure the dandelions’ invasiveness. One of the indicators, total biomass, was calculated using the DSM model.
   [Download Paper (PDF)](./13718.pdf)
+
+- **2023 International Mathematical Modeling Challenge (IMMC) Greater China National Round**  
+  Advanced to **International Round**.  
+  Applied machine learning methods (**logistic regression, decision tree, and random forest**) to classify lizards into 26 species. 
+  [Download Paper (PDF)](./IMMC23479442.pdf)
